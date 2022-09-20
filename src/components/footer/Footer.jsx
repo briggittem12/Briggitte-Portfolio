@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
 
           <div className="footer__socials">
-            <a href="#" className="footer__social">
+            <a href="https://twitter.com/jbriggitt06?t=WeuZoWOR_kk94SnG1NU92Q&s=09" className="footer__social">
               <i className="fa-brands fa-twitter"></i>
             </a>
             <a href="#" className="footer__social">

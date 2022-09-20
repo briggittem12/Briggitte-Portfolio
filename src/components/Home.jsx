@@ -8,17 +8,17 @@ import '../assets/styles/project.css'
 
 
 const Home = () => {
-
+ 
   return (
     <main className="main">
       <section className="home section" id="home">
         <div className="home__container container grid">
           <div className="home__content grid">
               <div className="home__social">
-              <a href="#" target="_blank" className="home__social-icon">
+              <a href="https://www.linkedin.com/in/briggitte-merch%C3%A1n/" target="_blank" className="home__social-icon">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#" target="_blank" className="home__social-icon">
+              <a href="https://github.com/briggittem12" target="_blank" className="home__social-icon">
                 <i className="fa-brands fa-github"></i>
               </a>
               </div>
@@ -26,7 +26,7 @@ const Home = () => {
                 <span>Imagenes HEREEEE!!!</span>
               </div>
               <div className="home__data">
-                <h1 className="home__title">Hi, I'am Briggitte</h1>
+                <h1 className="home__title">Hi, I'am Briggitte!</h1>
                 <h3 className="home__subtitle">Frontend Developer</h3>
                 <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet rerum enim quod nisi voluptatum eligendi expedita. Magnam non rem molestias consequuntur perferendis voluptate modi perspiciatis odio.</p>
                 <a href="#contact" target="_blank" className="button button--flex">
@@ -64,19 +64,20 @@ const Home = () => {
           <div>
             <div className="skills__content">
               <div className="skills__header">
-              <i className="fa-solid fa-brackets-curly skills__icon"></i>
+              <i className='bx bx-code-curly skills__icon'></i>
               <div>
               <h1 className="skills__title">Frontend Developer</h1>
-              <span className="skills__subtitle">Begginer</span>
+              <span className="skills__subtitle">Jr</span>
             </div>
-            <i className="fa-solid fa-caret-down skills__arrow"></i>
+            {/* <i className="fa-solid fa-caret-down skills__arrow"></i> */}
           </div>
 
             <div className="skills__list grid">
               <div className="skills__data">
+              <img src="/html5.svg" alt="HMTL" className='skills__img'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">HTML</h3>
-                  <span className="skills__number">90%</span>
+                  {/* <span className="skills__number">90%</span> */}
                 </div>
                   <div className="skills__bar">
                     <span className="skills__percentage skills__html"></span>
@@ -84,9 +85,10 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
+              <img src="/css.svg" alt="CSS" className='skills__img'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">CSS</h3>
-                  <span className="skills__number">90%</span>
+                  {/* <span className="skills__number">90%</span> */}
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__css"></span>
@@ -94,9 +96,10 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
+              <img src="/js.svg" alt="JavaScript" className='skills__img'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">JavaScript</h3>
-                  <span className="skills__number">70%</span>
+                  {/* <span className="skills__number">70%</span> */}
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__js"></span>
@@ -104,9 +107,21 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
+              <img src="/reactjs.svg" alt="react" className='skills__img'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">React</h3>
-                  <span className="skills__number">80%</span>
+                  {/* <span className="skills__number">80%</span> */}
+                </div>
+                <div className="skills__bar">
+                  <span className="skills__percentage skills__react"></span>
+                </div> 
+              </div>
+
+              <div className="skills__data">
+              <img src="/bootstrap.svg" alt="react" className='skills__img'/>
+                <div className="skills__titles">
+                  <h3 className="skills__name">Bootstrap</h3>
+                  {/* <span className="skills__number">80%</span> */}
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage skills__react"></span>

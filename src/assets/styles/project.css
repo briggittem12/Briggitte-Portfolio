@@ -5,7 +5,6 @@
   .portfolio__content {
     padding: 0 2.5rem;
     border: 1px solid transparent;
-    box-shadow: 0 4px 8px rgba(91, 255, 200, 0.493);
   }
   .portfolio__img {
     width: 265px;
@@ -37,7 +36,8 @@
     text-align: center;
   }
   .project__bg {
-    background-color: var(--first-color-second);
+    background-color: #2d4356;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.178);
     padding-top: 3rem;
   }
   .project__title {
@@ -83,7 +83,7 @@
   }
   .contact__label {
     font-size: var(--smaller-font-size);
-    color: var(--title-color);
+    color: #fff;
   }
   .contact__input {
     width: 100%;

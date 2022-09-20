@@ -4,7 +4,6 @@ import { Navigation } from "swiper";
 import 'swiper/css';  
 import "swiper/css/navigation";
 
-
 const Portfolio = () => {
 
   
@@ -18,13 +17,13 @@ const Portfolio = () => {
         <div>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="" alt="act" className="portfolio__img" />
+            <img src="/img/pokeapp.jpeg" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">E-commerce</h3>
               <p className="portfolio__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi voluptatum veniam incidunt rem quam, officiis perspiciatis vitae, impedit, animi assumenda deleniti illo asperiores sunt.
               </p>
-              <a href="" className="button button--flex button--small portfolio__button">
+              <a href="#" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>
               </a>
@@ -33,13 +32,13 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="" alt="act" className="portfolio__img" />
+            <img src="/img/climateapp.jpeg" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">E-commerce</h3>
               <p className="portfolio__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi voluptatum veniam incidunt rem quam, officiis perspiciatis vitae, impedit, animi assumenda deleniti illo asperiores sunt.
               </p>
-              <a href="" className="button button--flex button--small portfolio__button">
+              <a href="#" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>
               </a>
@@ -54,7 +53,7 @@ const Portfolio = () => {
               <p className="portfolio__description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi voluptatum veniam incidunt rem quam, officiis perspiciatis vitae, impedit, animi assumenda deleniti illo asperiores sunt.
               </p>
-              <a href="" className="button button--flex button--small portfolio__button">
+              <a href="#" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>
               </a>
