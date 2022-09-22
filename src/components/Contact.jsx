@@ -50,10 +50,10 @@ const Contact = () => {
             <textarea name="" id="" cols="0" rows="7" className='contact__input'></textarea>
           </div>
           <div>
-            <a href="#" className="button button--flex">
+            <button onClick={() => window.location = 'mailto:briggittemerchan6@gmail.com'} className="button button--flex">
               Send Message
               <i className="fa-solid fa-paper-plane button__icon"></i>
-            </a>
+            </button>
           </div>
         </div>
       </form>

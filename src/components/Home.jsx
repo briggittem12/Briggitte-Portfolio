@@ -5,7 +5,6 @@ import Portfolio from './Portfolio'
 import Projects from './Projects'
 import '../assets/styles/home.css'
 import '../assets/styles/project.css'
-import Cv from '../assets/pdf/curriculum.pdf'
 
 
 const Home = () => {
@@ -30,7 +29,7 @@ const Home = () => {
                 <h1 className="home__title">Hi, I'am Briggitte!</h1>
                 <h3 className="home__subtitle">Frontend Developer</h3>
                 <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet rerum enim quod nisi voluptatum eligendi expedita. Magnam non rem molestias consequuntur perferendis voluptate modi perspiciatis odio.</p>
-                <a href="#contact" target="_blank" className="button button--flex">
+                <a href="mailto:briggittemerchan6@gmail.com" target="_blank" className="button button--flex">
                   Contact Me <i className="fa-solid fa-file-import button__icon"></i>
                 </a>
               </div>
@@ -50,12 +49,12 @@ const Home = () => {
           <img className='about__img' src="/img/briggitte.png" alt="" />
           <div className="about__data">
             <p className="about__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ab doloremque architecto unde tenetur ad repudiandae porro, reprehenderit dolores ipsam eos corporis! Nihil commodi praesentium tempore sit aut quo reiciendis.</p>
+            <div className="about__buttons">
+              <a href="https://drive.google.com/file/d/1gXPB5UmsIkYPv1NEyrSbZTmpySfMwD5-/view?usp=sharing" target="_blank" className="button button--flex">
+                See CV! <i className="fa-solid fa-down-to-line button__icon"></i>
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="about__buttons">
-          <a href="https://drive.google.com/file/d/1gXPB5UmsIkYPv1NEyrSbZTmpySfMwD5-/view?usp=sharing" className="button button--flex">
-            See CV! <i className="fa-solid fa-down-to-line button__icon"></i>
-          </a>
         </div>
       </section>
       <section className="skills section" id="skills">

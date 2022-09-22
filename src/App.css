@@ -102,7 +102,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -171,7 +171,7 @@ img {
   display: flex;
   justify-content: center;
 }
-.home__img img {
+.home-img {
   width: 120px;
 }
 .home__data {
@@ -433,10 +433,14 @@ img {
     padding: 0;
   }
   .home__social {
-    transform: translateY(-6rem);
+    padding: 0;
+    padding-right: 2rem;
   }
-  .home-img img {
+  .home-img {
     width: 200px;
+  }
+  .skills__img {
+    padding: 0;
   }
   .portfolio__content {
     column-gap: 5rem;
