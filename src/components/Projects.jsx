@@ -13,7 +13,7 @@ const Projects = () => {
                         <i className="fa-solid fa-file-import project__icon button__icon"></i>
                     </a>
                 </div>
-                <img src="" alt="" className='project__img'/>
+                <img src="/img/option2.png" alt="" className='project__img'/>
             </div>
         </div>
     </section>

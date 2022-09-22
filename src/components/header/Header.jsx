@@ -27,7 +27,7 @@ const Header = () => {
           </li>
           <li className="nav__item">
             <a href="#about" className="nav__link">
-              <i className="fa-solid fa-user nav__icon"></i> About
+              <i className="fa-solid fa-user nav__icon"></i> About me
             </a>
           </li>
           <li className="nav__item">
@@ -42,12 +42,12 @@ const Header = () => {
           </li>
           <li className="nav__item">
             <a href="#portfolio" className="nav__link">
-              <i className="fa-solid fa-image nav__icon"></i> Portfolio
+              <i className="fa-solid fa-image nav__icon"></i> Projects
             </a>
           </li>
           <li className="nav__item">
             <a href="#contact" className="nav__link">
-              <i className="fa-solid fa-address-book nav__icon"></i> Contactme
+              <i className="fa-solid fa-address-book nav__icon"></i> Contact me
             </a>
           </li>
         </ul>

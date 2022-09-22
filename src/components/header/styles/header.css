@@ -15,7 +15,10 @@
     color: var(--first-color);
     cursor: pointer;
   }
-  
+  .nav__logo {
+    font-family: 'Ms Madi', cursive;
+    font-size: 1.5rem;
+  }
   @media (max-width: 767px) {
     .nav__menu {
       position: fixed;

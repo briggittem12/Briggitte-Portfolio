@@ -1,7 +1,6 @@
 /*--about me--*/
 .about__img {
-    width: 200px;
-    border-radius: .5rem;
+    width: 120px;
     justify-self: center;
     align-self: center;
   }

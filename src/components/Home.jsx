@@ -5,6 +5,7 @@ import Portfolio from './Portfolio'
 import Projects from './Projects'
 import '../assets/styles/home.css'
 import '../assets/styles/project.css'
+import Cv from '../assets/pdf/curriculum.pdf'
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
               </a>
               </div>
               <div className="home__img">
-                <span>Imagenes HEREEEE!!!</span>
+                <img src="/img/option.png" alt="Briggite" className='home-img'/>
               </div>
               <div className="home__data">
                 <h1 className="home__title">Hi, I'am Briggitte!</h1>
@@ -46,14 +47,14 @@ const Home = () => {
         <h2 className="section__title">About Me!</h2>
         <span className="section__subtitle">My Introduction</span>
         <div className="about__container container grid">
-          <img className='about__img' src="" alt="" />
+          <img className='about__img' src="/img/briggitte.png" alt="" />
           <div className="about__data">
             <p className="about__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ab doloremque architecto unde tenetur ad repudiandae porro, reprehenderit dolores ipsam eos corporis! Nihil commodi praesentium tempore sit aut quo reiciendis.</p>
           </div>
         </div>
         <div className="about__buttons">
-          <a href="#" className="button button--flex">
-            Download CV <i className="fa-solid fa-down-to-line button__icon"></i>
+          <a href="https://drive.google.com/file/d/1gXPB5UmsIkYPv1NEyrSbZTmpySfMwD5-/view?usp=sharing" className="button button--flex">
+            See CV! <i className="fa-solid fa-down-to-line button__icon"></i>
           </a>
         </div>
       </section>
@@ -118,7 +119,18 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
-              <img src="/bootstrap.svg" alt="react" className='skills__img'/>
+              <img src="/vite.svg" alt="vite" className='skills__img'/>
+                <div className="skills__titles">
+                  <h3 className="skills__name">React</h3>
+                  {/* <span className="skills__number">80%</span> */}
+                </div>
+                <div className="skills__bar">
+                  <span className="skills__percentage skills__react"></span>
+                </div> 
+              </div>
+
+              <div className="skills__data">
+              <img src="/bootstrap.svg" alt="Bootstrap" className='skills__img'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">Bootstrap</h3>
                   {/* <span className="skills__number">80%</span> */}
