@@ -28,7 +28,24 @@
     cursor: pointer;
   }
   .skills__img {
-    width: 100px;
+    height: 10em;
+    padding: 1.5em;
+    will-change: filter;
+  }
+  .skills__img:hover {
+    filter: drop-shadow(0 0 2em #509dbb);
+  }
+  .skills__img .react:hover {
+    filter: drop-shadow(0 0 2em #00c8ffaa);
+  }
+  .skills__img .html:hover {
+    filter: drop-shadow(0 0 2em #ff5e00f5);
+  }
+  .skills__img .css:hover {
+    filter: drop-shadow(0 0 2em #0044ffaa);
+  }
+  .skills__img .java:hover {
+    filter: drop-shadow(0 0 2em #fffb00aa);
   }
   
   .skills__icon,

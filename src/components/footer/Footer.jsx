@@ -29,8 +29,14 @@ const Footer = () => {
             <a href="https://twitter.com/jbriggitt06?t=WeuZoWOR_kk94SnG1NU92Q&s=09" className="footer__social">
               <i className="fa-brands fa-twitter"></i>
             </a>
-            <a href="#" className="footer__social">
+            <a href="https://www.instagram.com/jbriggitte_06/" className="footer__social">
               <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://t.me/Brigg20" className="footer__social">
+              <i className="fa-brands fa-telegram"></i>
+            </a>
+            <a href="https://t.me/Brigg20" className="footer__social">
+              <i className="fa-brands fa-slack"></i>
             </a>
           </div>
 

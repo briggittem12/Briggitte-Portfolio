@@ -21,12 +21,15 @@ const Home = () => {
               <a href="https://github.com/briggittem12" target="_blank" className="home__social-icon">
                 <i className="fa-brands fa-github"></i>
               </a>
+              <a href="https://wa.me/593939461112?text=Hi%20I%20talk" target="_blank" className="home__social-icon">
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
               </div>
               <div className="home__img">
                 <img src="/img/option.png" alt="Briggite" className='home-img'/>
               </div>
               <div className="home__data">
-                <h1 className="home__title">Hi, I'am Briggitte!</h1>
+                <h1 className="home__title">Hi, Iam Briggitte!</h1>
                 <h3 className="home__subtitle">Frontend Developer</h3>
                 <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet rerum enim quod nisi voluptatum eligendi expedita. Magnam non rem molestias consequuntur perferendis voluptate modi perspiciatis odio.</p>
                 <a href="mailto:briggittemerchan6@gmail.com" target="_blank" className="button button--flex">
@@ -74,7 +77,7 @@ const Home = () => {
 
             <div className="skills__list grid">
               <div className="skills__data">
-              <img src="/html5.svg" alt="HMTL" className='skills__img'/>
+              <img src="/html5.svg" alt="HMTL" className='skills__img html'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">HTML</h3>
                   {/* <span className="skills__number">90%</span> */}
@@ -85,7 +88,7 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
-              <img src="/css.svg" alt="CSS" className='skills__img'/>
+              <img src="/css.svg" alt="CSS" className='skills__img css'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">CSS</h3>
                   {/* <span className="skills__number">90%</span> */}
@@ -96,7 +99,7 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
-              <img src="/js.svg" alt="JavaScript" className='skills__img'/>
+              <img src="/js.svg" alt="JavaScript" className='skills__img java'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">JavaScript</h3>
                   {/* <span className="skills__number">70%</span> */}
@@ -107,7 +110,7 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
-              <img src="/reactjs.svg" alt="react" className='skills__img'/>
+              <img src="/reactjs.svg" alt="react" className='skills__img react'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">React</h3>
                   {/* <span className="skills__number">80%</span> */}
@@ -118,7 +121,7 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
-              <img src="/vite.svg" alt="vite" className='skills__img'/>
+              <img src="/vite.svg" alt="vite" className='skills__img vite'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">React</h3>
                   {/* <span className="skills__number">80%</span> */}
@@ -129,7 +132,7 @@ const Home = () => {
               </div>
 
               <div className="skills__data">
-              <img src="/bootstrap.svg" alt="Bootstrap" className='skills__img'/>
+              <img src="/bootstrap.svg" alt="Bootstrap" className='skills__img bootstrap'/>
                 <div className="skills__titles">
                   <h3 className="skills__name">Bootstrap</h3>
                   {/* <span className="skills__number">80%</span> */}

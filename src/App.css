@@ -15,11 +15,11 @@
     --first-color-alt: hsl(162, 100%, 67%);
     --first-color-lighter: hsl(150, 66%, 80%);
     --title-color: hsl(147, 61%, 61%);
-    --text-color: hsl(20, 6%, 10%);
+    --text-color: #89aac3;
     --text-color-light: hsl(0, 2%, 12%);
     --input-color: hsl(var(--hue-color), 50%, 66%);
-    --body-color: hsl(var(--hue-color), 40%, 49%);
-    --container-color: #fff;
+    --body-color: #2b4f71;
+    --container-color: #2b4f71;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -106,6 +106,10 @@ img {
   height: auto;
 }
 
+input {
+  border: none;
+  outline: none;
+}
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
@@ -158,7 +162,7 @@ img {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  padding-left: 3rem;
+  padding: 0 3rem 0 3rem;
 }
 .home__social-icon {
   font-size: 2rem;
@@ -182,9 +186,9 @@ img {
   display: block;
   white-space: nowrap;
   border-right: 3px solid;
-  width: 16ch;
+  width: 13ch;
 
-  animation: writing 3s steps(16), blink .5s infinite step-end alternate;
+  animation: writing 3s steps(13), blink .5s infinite step-end alternate;
   overflow: hidden;
 }
 @keyframes writing {
@@ -195,7 +199,7 @@ img {
 }
 .home__subtitle {
   font-size: var(--h3-font-size);
-  color: var(--text-color);
+  color: #ddb4af;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
 }
@@ -384,7 +388,7 @@ img {
   }
   .skills__list {
     gap: 1.5rem;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .services__icon {
     font-size: 2rem;
@@ -435,6 +439,9 @@ img {
   .home__social {
     padding: 0;
     padding-right: 2rem;
+  }
+  .home__content {
+    column-gap: 6rem;
   }
   .home-img {
     width: 200px;

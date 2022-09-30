@@ -18,7 +18,7 @@ const Header = () => {
     <header className="header" id="header">
       <nav className="nav container">
         <a href="#" className="nav__logo">Briggitte</a>
-      <div className={showClose} id="nav-menu">
+      <div className={showClose} onClick={showHidden} id="nav-menu">
         <ul className="nav__list grid">
           <li className="nav__item">
             <a href="#home" className="nav__link">
