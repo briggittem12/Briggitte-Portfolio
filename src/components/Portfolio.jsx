@@ -21,9 +21,15 @@ const Portfolio = () => {
             <img src="/img/pokeapp.jpeg" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Poke App</h3>
-              <p className="portfolio__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi voluptatum veniam incidunt rem quam, officiis perspiciatis vitae, impedit, animi assumenda deleniti illo asperiores sunt.
+              <p className="portfolio__description"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               </p>
+              <span>Use:</span>
+              <ul className='portfolio__list'>
+                <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
+                <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
+                <li><i className='bx bxl-redux bx-tada portfolio_icon redux'></i></li>
+              </ul>
               <a href="https://pokeappg16.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>
@@ -37,9 +43,14 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Weather App</h3>
               <p className="portfolio__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi voluptatum veniam incidunt rem quam, officiis perspiciatis vitae, impedit, animi assumenda deleniti illo asperiores sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               </p>
-                
+              <span>Use:</span>
+              <ul className='portfolio__list'>
+                <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
+                <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
+                <li><i className='bx bxl-redux bx-tada portfolio_icon redux'></i></li>
+              </ul>
               <a href="https://climatebybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>
@@ -53,9 +64,14 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Rick and Morty App</h3>
               <p className="portfolio__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nisi voluptatum veniam incidunt rem quam, officiis perspiciatis vitae, impedit, animi assumenda deleniti illo asperiores sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               </p>
-              
+              <span>Use:</span>
+              <ul className='portfolio__list'>
+                <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
+                <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
+                <li><i className='bx bxl-redux bx-tada portfolio_icon redux'></i></li>
+              </ul>
               <a href="https://rickyandmortybybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>

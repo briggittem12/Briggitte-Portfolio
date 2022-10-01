@@ -19,6 +19,30 @@
     text-align: justify;
     margin-bottom: var(--mb-0-75);
   }
+  .portfolio__list {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio_icon {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    will-change: filter;
+    cursor: pointer;
+  }
+  .portfolio_icon:hover {
+    filter: drop-shadow(0 0 .5em  #dee6e9);
+  }
+  .react{
+    color: aqua;
+  }
+  .css{
+    color: blue;
+  }
+  .redux{
+    color: blueviolet;
+  }
   .portfolio__button:hover .button__icon {
     transform: translateX(.25rem);
   }
@@ -75,7 +99,7 @@
   }
   .contact__subtitle {
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
+    color: var(--text-color);
   }
   .contact__content {
     background-color: var(--input-color);
@@ -89,7 +113,7 @@
   .contact__input {
     width: 100%;
     background-color: var(--input-color);
-    color: var(--text-color);
+    color: var(--text-color-light);
     font-family: var(--body-font);
     border: none;
     outline: none;

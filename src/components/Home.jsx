@@ -33,8 +33,8 @@ const Home = () => {
               </div>
               <div className="home__data">
                 <h1 className="home__title">Hi, Iam Briggitte!</h1>
-                <h3 className="home__subtitle">Frontend Developer</h3>
-                <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet rerum enim quod nisi voluptatum eligendi expedita. Magnam non rem molestias consequuntur perferendis voluptate modi perspiciatis odio.</p>
+                <h3 className="home__subtitle">Frontend Developer <i className='bx bxs-cat bx-tada home__subtitle'></i></h3>
+                <p className="home__description">I like cats and programming... Briging you development solutions!</p>
                 <a href="mailto:briggittemerchan6@gmail.com" target="_blank" className="button button--flex">
                   Contact Me <i className="fa-solid fa-file-import button__icon"></i>
                 </a>
@@ -54,7 +54,7 @@ const Home = () => {
         <div className="about__container container grid">
           <img className='about__img' src="/img/briggitte.png" alt="" />
           <div className="about__data">
-            <p className="about__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ab doloremque architecto unde tenetur ad repudiandae porro, reprehenderit dolores ipsam eos corporis! Nihil commodi praesentium tempore sit aut quo reiciendis.</p>
+            <p className="about__description">Innovative FrontEnd Programmer, proactive and able to develop web pages, I also have good digital skills in React.js, Javascript, HTML, CSS and Bootstrap, I have facility to work both in a team and independently, according to the needs.</p>
             <div className="about__buttons">
               <a href="https://drive.google.com/file/d/1gXPB5UmsIkYPv1NEyrSbZTmpySfMwD5-/view?usp=sharing" target="_blank" className="button button--flex">
                 See CV! <i className="fa-solid fa-down-to-line button__icon"></i>
