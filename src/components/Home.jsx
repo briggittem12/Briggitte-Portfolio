@@ -21,7 +21,7 @@ const Home = () => {
               <a href="https://github.com/briggittem12" target="_blank" className="home__social-icon">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://t.me/Brigg20" className="footer__social">
+              <a href="https://t.me/Brigg20" target="_blank" className="home__social-icon">
                 <i className="fa-brands fa-telegram"></i>
               </a>
               {/* <a href="https://wa.me/593939461112?text=Hi%20I%20talk" target="_blank" className="home__social-icon">
