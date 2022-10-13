@@ -27,14 +27,14 @@ const Contact = () => {
       <h2 className="section__title">Contact Me</h2>
       <span className="section__subtitle">Get in Touch</span>
     <div className="contact__container container grid">
-      <div>
-        {/* <div className="contact__information">
+      <div className='contact__group'>
+         <div className="contact__information">
         <i className="fa-solid fa-phone contact__icon"></i>
           <div>
             <h3 className="contact title">Call Me</h3>
             <span className="contact__subtitle">593-93-946-1112</span>
           </div>
-        </div> */}
+        </div> 
 
         <div className="contact__information">
         <i className="fa-solid fa-envelope contact__icon"></i>
@@ -52,7 +52,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <form onSubmit={saveForm}  className="contact__form grid">
+      {/* <form onSubmit={saveForm}  className="contact__form grid">
         <div className="contact__inputs grid">
           <div className="contact__content">
             <label htmlFor="" className="contact__label">Name</label>
@@ -77,7 +77,7 @@ const Contact = () => {
             </button>
           </div>
         </div>
-      </form>
+      </form> */}
     </div>
     </section>
   )

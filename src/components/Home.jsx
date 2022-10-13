@@ -34,7 +34,7 @@ const Home = () => {
               <div className="home__data">
                 <h1 className="home__title">Hi, Iam Briggitte!</h1>
                 <h3 className="home__subtitle">Frontend Developer <i className='bx bxs-cat bx-tada home__subtitle'></i></h3>
-                <p className="home__description">I like cats and programming... Briging you development solutions!</p>
+                <p className="home__description">Briging you development solutions!</p>
                 <a href="mailto:briggittemerchan6@gmail.com" target="_blank" className="button button--flex">
                   Contact Me <i className="fa-solid fa-file-import button__icon"></i>
                 </a>
@@ -49,6 +49,7 @@ const Home = () => {
         </div>
       </section>
       <section className="about section" id="about">
+        <div className='project__bg'>
         <h2 className="section__title">About Me!</h2>
         <span className="section__subtitle">My Introduction</span>
         <div className="about__container container grid">
@@ -62,6 +63,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        </div>
       </section>
       <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>
@@ -73,7 +75,7 @@ const Home = () => {
               <i className='bx bx-code-curly skills__icon'></i>
               <div>
               <h1 className="skills__title">Frontend Developer</h1>
-              <span className="skills__subtitle">Jr</span>
+              {/* <span className="skills__subtitle">Jr</span> */}
             </div>
             {/* <i className="fa-solid fa-caret-down skills__arrow"></i> */}
           </div>

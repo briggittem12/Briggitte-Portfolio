@@ -299,6 +299,10 @@ input {
   .project__img {
     width: 200px;
   }
+  .contact__group {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 /*devices medium*/
 @media (min-width:568px) {
@@ -312,10 +316,13 @@ input {
     order: 1;
     justify-self: center;
   }
+  .contact__group {
+    flex-direction: row;
+    
+  }
   .about__container,
   .portfolio__content,
   .project__container,
-  .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
