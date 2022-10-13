@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react'
 
 const Contact = () => {
@@ -6,7 +7,15 @@ const Contact = () => {
 
   const saveForm = e => {
     e.preventDefault();
-    setForm(e.target.contact.value)
+    setForm(e.target.contact.value);
+
+    axios.defaults.headers.post['Content-Type'] = 'application/json';
+    axios.post('https://formsubmit.co/ajax/1d22b17ee499680e571c5429b17d3916', {
+      name: "",
+      message: ""
+    })
+    .then(response => console.log(response))
+    .catch(error => console.log(error));
   }
 
   
@@ -43,7 +52,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <form onSubmit={saveForm} action="https://formsubmit.co/brimerchan@outlook.com" method="POST" className="contact__form grid">
+      <form onSubmit={saveForm}  className="contact__form grid">
         <div className="contact__inputs grid">
           <div className="contact__content">
             <label htmlFor="" className="contact__label">Name</label>
