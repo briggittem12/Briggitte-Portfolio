@@ -73,6 +73,8 @@
   .services__modal-icon {
     color: var(--first-color);
     margin-right: var(--mb-0-25);
+    font-size: 1rem;
+    margin-top: 4px;
   }
   .active-modal {
     opacity: 1;

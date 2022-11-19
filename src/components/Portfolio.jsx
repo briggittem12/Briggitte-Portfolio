@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper"; 
 import 'swiper/css';  
 import "swiper/css/navigation";
+import { motion } from "framer-motion"
 
 
 const Portfolio = () => {
-
   
   return (
     <section className="portfolio section" id='portfolio'>
@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="/img/pokeapp.jpeg" alt="act" className="portfolio__img" />
+            <img src="/img/todoapp.jpeg" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Todo App</h3>
               <p className="portfolio__description"> 
@@ -28,9 +28,9 @@ const Portfolio = () => {
               <ul className='portfolio__list'>
                 <li><i className='bx bxl-bootstrap bx-tada portfolio_icon redux'></i></li>
                 <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
-                <li><i className='bx bxl-redux bx-tada portfolio_icon redux'></i></li>
+                
               </ul>
-              <a href="https://pokeappg16.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
+              <a href="https://todo-app-v1b.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
                   Demo
                   <i className="fa-solid fa-arrow-right button__icon"></i>
               </a>
@@ -70,7 +70,7 @@ const Portfolio = () => {
               <ul className='portfolio__list'>
                 <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
                 <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
-                <li><i className='bx bxl-redux bx-tada portfolio_icon redux'></i></li>
+                
               </ul>
               <a href="https://climatebybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
                   Demo
@@ -91,7 +91,7 @@ const Portfolio = () => {
               <ul className='portfolio__list'>
                 <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
                 <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
-                <li><i className='bx bxl-redux bx-tada portfolio_icon redux'></i></li>
+                
               </ul>
               <a href="https://rickyandmortybybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
                   Demo

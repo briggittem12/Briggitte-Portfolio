@@ -52,7 +52,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/* <form onSubmit={saveForm}  className="contact__form grid">
+
+       <form onSubmit={saveForm}  className="contact__form grid">
         <div className="contact__inputs grid">
           <div className="contact__content">
             <label htmlFor="" className="contact__label">Name</label>
@@ -77,7 +78,8 @@ const Contact = () => {
             </button>
           </div>
         </div>
-      </form> */}
+      </form> 
+      
     </div>
     </section>
   )

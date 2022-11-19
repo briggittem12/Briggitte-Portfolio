@@ -112,7 +112,12 @@ input {
 }
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
+  /*padding: 2rem 0 4rem;*/
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
 }
 
 .section__title {
@@ -131,6 +136,9 @@ input {
   text-align: center;
 }
 
+.skills, .services, .portfolio, .contact {
+  flex-direction: column;
+}
 /*==================== LAYOUT ====================*/
 .container {
   max-width: 768px;
@@ -155,7 +163,7 @@ input {
 }
 .home__content {
   grid-template-columns: .5fr 3fr;
-  padding-top: 3.5rem;
+  padding-top: 1.5rem;
   align-items: center;
 }
 .home__social {
@@ -286,6 +294,9 @@ input {
   .skills__title {
     font-size: var(--normal-font-size);
   }
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
   /* .services__container {
     grid-template-columns: max-content;
     justify-content: center; 
@@ -318,7 +329,6 @@ input {
   }
   .contact__group {
     flex-direction: row;
-    
   }
   .about__container,
   .portfolio__content,
@@ -372,7 +382,7 @@ input {
     row-gap: 5rem;
   }
   .home__content {
-    padding-top: 5.5rem;
+    padding-top: 3rem;
     column-gap: 2rem;
   }
   .about__container {
@@ -445,7 +455,7 @@ input {
   }
   .home__social {
     padding: 0;
-    padding-right: 2rem;
+    /*padding-right: 2rem;*/
   }
   .home__content {
     column-gap: 6rem;
