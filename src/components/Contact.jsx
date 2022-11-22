@@ -24,7 +24,7 @@ const Contact = () => {
 
   
 
-  console.log(form)
+
 
   return (
     <section className='contact section' id='contact'>
