@@ -4,11 +4,13 @@ import { Navigation } from "swiper";
 import 'swiper/css';  
 import "swiper/css/navigation";
 import { motion } from "framer-motion"
+import Projects from './Projects';
 
 
 const Portfolio = () => {
   
   return (
+    <>
     <section className="portfolio section" id='portfolio'>
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">Most recent work</span>
@@ -104,6 +106,7 @@ const Portfolio = () => {
           </Swiper>
       </div>
     </section>
+    </>
   )
 }
 

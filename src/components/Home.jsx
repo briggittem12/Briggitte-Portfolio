@@ -27,6 +27,7 @@ const Home = () => {
               </div>
               <div className="home__img">
                 <img src="/img/option.png" alt="Briggite" className='home-img'/>
+                <img src="/img/blob.svg" alt="icon_back" />
               </div>
               <div className="home__data">
                 <h1 className="home__title">Hi, Iam Briggitte!</h1>

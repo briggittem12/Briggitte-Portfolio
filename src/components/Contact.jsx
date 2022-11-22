@@ -7,20 +7,24 @@ const Contact = () => {
 
   const saveForm = e => {
     e.preventDefault();
-    setForm(e.target.contact.value);
+    
+    const email = e.target.email.value;
+    const name = e.target.name.value;
+    const project = e.target.project.value;
+    const message = e.target.message.value;
+
 
     axios.defaults.headers.post['Content-Type'] = 'application/json';
-    axios.post('https://formsubmit.co/ajax/1d22b17ee499680e571c5429b17d3916', {
-      name: "",
-      message: ""
+    axios.post('https://formsubmit.co/ajax/briggittemerchan6@gmail.com', {
+      name, email, project, message
     })
-    .then(response => console.log(response))
+    .then(response => setForm(response.data))
     .catch(error => console.log(error));
   }
 
   
 
-  //console.log(form)
+  console.log(form)
 
   return (
     <section className='contact section' id='contact'>
@@ -56,19 +60,19 @@ const Contact = () => {
        <form onSubmit={saveForm}  className="contact__form grid">
         <div className="contact__inputs grid">
           <div className="contact__content">
-            <label htmlFor="" className="contact__label">Name</label>
+            <label  className="contact__label">Name</label>
             <input type="text" id="contact" name="name" className="contact__input" />
           </div>
           <div className="contact__content">
-            <label htmlFor="" className="contact__label">Email</label>
+            <label  className="contact__label">Email</label>
             <input type="email" id="contact" name="email" className="contact__input" />
           </div>
           <div className="contact__content">
-            <label htmlFor="" className="contact__label">Project</label>
+            <label  className="contact__label">Project</label>
             <input type="text" id="contact" name="project" className="contact__input" />
           </div>
           <div className="contact__content">
-            <label htmlFor="" className="contact__label">Message</label>
+            <label  className="contact__label">Message</label>
             <textarea name="message"  id="contact" cols="0" rows="7" className='contact__input'></textarea>
           </div>
           <div>

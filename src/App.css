@@ -330,9 +330,13 @@ input {
   .contact__group {
     flex-direction: row;
   }
+  .about {
+    padding: 3rem;
+  }
   .about__container,
   .portfolio__content,
   .project__container,
+  .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -345,10 +349,10 @@ input {
   body {
     margin: 0;
   }
-  .section {
-    /* width: 100vh; */
+ /* .section {
+     width: 100vh; 
     padding: 6rem 0 2rem;
-  }
+  }*/
   .section__subtitle {
     margin-bottom: 4rem;
   }
@@ -384,6 +388,9 @@ input {
   .home__content {
     padding-top: 3rem;
     column-gap: 2rem;
+  }
+  .about {
+    padding: 5rem;
   }
   .about__container {
     column-gap: 5rem;

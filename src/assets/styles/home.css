@@ -1,4 +1,7 @@
 /*--about me--*/
+.about {
+  padding: 1rem;
+}
 .about__img {
     width: 120px;
     justify-self: center;
