@@ -20,6 +20,8 @@ const Contact = () => {
     })
     .then(response => setForm(response.data))
     .catch(error => console.log(error));
+
+    setForm('');
   }
 
   
