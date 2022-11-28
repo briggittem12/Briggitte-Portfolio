@@ -121,7 +121,7 @@
   }
   .contact__input {
     width: 100%;
-    background-color: var(--input-color);
+    background-color: transparent;
     color: var(--text-color-light);
     font-family: var(--body-font);
     border: none;
