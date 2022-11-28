@@ -24,7 +24,8 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Todo App</h3>
               <p className="portfolio__description"> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Task application in React, allows us to create, edit, mark as done and delete a task. <br />
+              Responsive design, made with bootstrap.
               </p>
               <span>Use:</span>
               <ul className='portfolio__list'>
@@ -45,7 +46,8 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Poke App</h3>
               <p className="portfolio__description"> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Pokemon App made with React, through a global state of Redux, allows you to enter your username, search through filters and pagination. <br />
+                Responsive design made with CSS3. 
               </p>
               <span>Use:</span>
               <ul className='portfolio__list'>
@@ -66,7 +68,7 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Weather App</h3>
               <p className="portfolio__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Weather application, allows you to view the temperature of your location in degrees Celsius and Fahrenheit. 
               </p>
               <span>Use:</span>
               <ul className='portfolio__list'>
@@ -87,7 +89,7 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Rick and Morty App</h3>
               <p className="portfolio__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Rick and Morty application, allows you to search for your favorite character using a search filter to see their characteristics.
               </p>
               <span>Use:</span>
               <ul className='portfolio__list'>

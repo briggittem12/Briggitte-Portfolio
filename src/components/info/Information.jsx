@@ -26,6 +26,20 @@ const Information = () => {
           closeModal={() => setShowModal(false)}
           />
         </div>
+        <div className="services__content">
+          <div>
+            <i className="fa-solid fa-code services__icon"></i>
+            <h3 className="services__title">Backend Developer</h3>
+          </div>
+          <span onClick={() => setShowModal(true)} className="button button--flex button--small button--link services__button">
+            View More  
+            <i className="fa-solid fa-arrow-right button__icon"></i>
+          </span>
+          <Modal 
+          showModal={showModal}
+          closeModal={() => setShowModal(false)}
+          />
+        </div>
       </div>
     </section>
   )

@@ -95,7 +95,7 @@
   }
   .contact__information {
     display: flex;
-    margin-bottom: var(--mb-2);
+    /*margin-bottom: var(--mb-2);*/
   }
   .contact__icon {
     font-size: 2rem;
