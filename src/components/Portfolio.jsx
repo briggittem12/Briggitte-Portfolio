@@ -20,7 +20,51 @@ const Portfolio = () => {
         <div>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="/img/todoapp.jpeg" alt="act" className="portfolio__img" />
+            <img src="/img/yt_clone.png" alt="act" className="portfolio__img" />
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">YouTube Clone</h3>
+              <p className="portfolio__description"> 
+              Youtube clone made with React using RapidAPI. Allows the user to search for videos, view the channel and play the videos. <br />
+              Responsive design, made with MaterialUI.
+              </p>
+              <span>Use:</span>
+              <ul className='portfolio__list'>
+                <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
+                <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
+                
+              </ul>
+              <a href="https://clone-yt-bybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
+                  Demo
+                  <i className="fa-solid fa-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="portfolio__content grid">
+            <img src="/img/joja-ecc.png" alt="act" className="portfolio__img" />
+            <div className="portfolio__data">
+              <h3 className="portfolio__title">E-commerce Joja</h3>
+              <p className="portfolio__description"> 
+              Online store in flutterflow and firebase, allows the user to see the product detail, select sizes and quantities to be added to the shopping cart.<br />
+              Responsive design, made with FlutterFlow.
+              </p>
+              <span>Use:</span>
+              <ul className='portfolio__list'>
+                <li><i className='bx bxl-firebase bx-tada portfolio_icon' ></i></li>
+                <li><i className='bx bxl-flutter bx-tada portfolio_icon' ></i></li>
+                
+              </ul>
+              <a href="https://clone-yt-bybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
+                  Demo
+                  <i className="fa-solid fa-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="portfolio__content grid">
+            <img src="/img/todoapp.png" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Todo App</h3>
               <p className="portfolio__description"> 
@@ -42,7 +86,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="/img/pokeapp.jpeg" alt="act" className="portfolio__img" />
+            <img src="/img/pokeapp.png" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Poke App</h3>
               <p className="portfolio__description"> 
@@ -64,7 +108,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="/img/climateapp.jpeg" alt="act" className="portfolio__img" />
+            <img src="/img/clima.png" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Weather App</h3>
               <p className="portfolio__description">
@@ -83,27 +127,7 @@ const Portfolio = () => {
             </div>
           </div>
           </SwiperSlide>
-          <SwiperSlide>
-          <div className="portfolio__content grid">
-            <img src="/img/rickmorty.png" alt="act" className="portfolio__img" />
-            <div className="portfolio__data">
-              <h3 className="portfolio__title">Rick and Morty App</h3>
-              <p className="portfolio__description">
-                Rick and Morty application, allows you to search for your favorite character using a search filter to see their characteristics.
-              </p>
-              <span>Use:</span>
-              <ul className='portfolio__list'>
-                <li><i className='bx bxl-react bx-flip-horizontal bx-tada portfolio_icon react' ></i></li>
-                <li><i className='bx bxl-css3 bx-flip-horizontal bx-tada portfolio_icon css' ></i></li>
-                
-              </ul>
-              <a href="https://rickyandmortybybri.netlify.app" target="_blank" className="button button--flex button--small portfolio__button">
-                  Demo
-                  <i className="fa-solid fa-arrow-right button__icon"></i>
-              </a>
-            </div>
-          </div>
-        </SwiperSlide>
+          
         </div>
           </Swiper>
       </div>

@@ -68,7 +68,7 @@ const Skills = () => {
               <div className="skills__data">
               <img src="/vite.svg" alt="vite" className='skills__img vite'/>
                 <div className="skills__titles">
-                  <h3 className="skills__name">React</h3>
+                  <h3 className="skills__name">Vite</h3>
                   {/* <span className="skills__number">80%</span> */}
                 </div>
                 {/* <div className="skills__bar">
@@ -76,16 +76,7 @@ const Skills = () => {
                 </div>  */}
               </div>
 
-              <div className="skills__data">
-              <img src="/bootstrap.svg" alt="Bootstrap" className='skills__img bootstrap'/>
-                <div className="skills__titles">
-                  <h3 className="skills__name">Bootstrap</h3>
-                  {/* <span className="skills__number">80%</span> */}
-                </div>
-                {/* <div className="skills__bar">
-                  <span className="skills__percentage skills__react"></span>
-                </div>  */}
-              </div>
+              
 
             </div>
           </div>
