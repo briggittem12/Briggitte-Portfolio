@@ -107,7 +107,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src="/img/pokeapp.png" alt="act" className="portfolio__img" />
+            <img src="/img/pokeapp.jpeg" alt="act" className="portfolio__img" />
             <div className="portfolio__data">
               <h3 className="portfolio__title">Poke App</h3>
               <p className="portfolio__description"> 
