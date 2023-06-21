@@ -18,38 +18,38 @@ const Header = () => {
   return (
     <header className="header" id="header">
       <nav className="nav container">
-        <Link to='/' className="nav__logo">Briggitte</Link>
+        <a href='/' className="nav__logo">Briggitte</a>
       <div className={showClose} onClick={showHidden} id="nav-menu">
         <ul className="nav__list grid">
           <li className="nav__item">
-            <Link to="/" className="nav__link">
+            <a href="/" className="nav__link">
               <i className="fa-solid fa-house nav__icon"></i> Home
-            </Link>
+            </a>
           </li>
           <li className="nav__item">
-            <Link  to="/aboutme" className="nav__link">
+            <a href="#aboutme" className="nav__link">
               <i className="fa-solid fa-user nav__icon"></i> About me
-            </Link>
+            </a>
           </li>
           <li className="nav__item">
-            <Link to="/skills" className="nav__link">
+            <a href="#skills" className="nav__link">
               <i className="fa-sharp fa-solid fa-file-invoice nav__icon"></i> Skills
-            </Link>
+            </a>
           </li>
           <li className="nav__item">
-            <Link  to="/services" className="nav__link">
+            <a href="#services" className="nav__link">
               <i className="fa-solid fa-briefcase nav__icon"></i> Services
-            </Link>
+            </a>
           </li>
           <li className="nav__item">
-            <Link  to="/portfolio" className="nav__link">
+            <a href="#portfolio" className="nav__link">
               <i className="fa-solid fa-image nav__icon"></i> Projects
-            </Link>
+            </a>
           </li>
           <li className="nav__item">
-            <Link to="/contact" className="nav__link">
+            <a href="#contact" className="nav__link">
               <i className="fa-solid fa-address-book nav__icon"></i> Contact me
-            </Link>
+            </a>
           </li>
         </ul>
         <i onClick={showHidden} className="fa-sharp fa-solid fa-xmark nav__close" id="nav-close"></i>

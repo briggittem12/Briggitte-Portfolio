@@ -26,7 +26,7 @@
     justify-content: center;
   }
   .portfolio_icon {
-    font-size: 2rem;
+    font-size: 2em;
     padding-bottom: 1rem;
     will-change: filter;
     cursor: pointer;
@@ -42,6 +42,18 @@
   }
   .redux{
     color: blueviolet;
+  }
+  .next{
+    color: black;
+  }
+  .mui{
+    color: #007fff;
+  }
+  .firebase{
+    color: gold;
+  }
+  .flutter{
+    color: #4b39ef;
   }
   .portfolio__button:hover .button__icon {
     transform: translateX(.25rem);
