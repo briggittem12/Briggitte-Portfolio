@@ -7,7 +7,7 @@ const Information = () => {
   const [showModal, setShowModal] = useState(false)  
 
   return (
-    <section className='services section' id='services'>
+    <section className='services section project__bg' id='services'>
       <h2 className="section__title">Services</h2>
       <span className="section__subtitle">What i offer</span>
 
