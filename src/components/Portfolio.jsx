@@ -11,13 +11,13 @@ const Portfolio = () => {
         <>
             <section className="portfolio section" id="portfolio">
                 <h2 className="section__title">Projects</h2>
-                <span className="section__subtitle">Most recent work</span>
+                <span className="portfolio__sub">Most recent work</span>
 
                 <div className="portfolio__container">
                     {
                       portfolio.map(portData => (
-                        <div key={portData.title}>
-                        <div className="portfolio__content ">
+                        
+                        <div className="portfolio__content " key={portData.title}>
                             <img
                                 src={portData.imgDemo}
                                 alt="act"
@@ -29,7 +29,7 @@ const Portfolio = () => {
                                 </h3>
                                 <p className="portfolio__description">
                                     {portData.description}
-                                </p>
+                                </p> 
                                 {/* <span>Use:</span>
                                 <ul className="portfolio__list">
                                     <li className=" portfolio_icon react">
@@ -55,9 +55,6 @@ const Portfolio = () => {
                                 </a>
                             </div>
                         </div>
-
-                        
-                    </div>
                       ))
                     }
                 </div>

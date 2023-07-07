@@ -11,7 +11,7 @@ const Information = () => {
       <h2 className="section__title">Services</h2>
       <span className="section__subtitle">What i offer</span>
 
-      <div className="services__container container grid">
+      <div className="services__container grid">
         <div className="services__content">
           <div>
             <i className="fa-solid fa-code services__icon"></i>

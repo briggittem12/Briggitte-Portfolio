@@ -139,11 +139,7 @@ input {
   flex-direction: column;
 }
 /*==================== LAYOUT ====================*/
-.container {
-  max-width: 768px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
-}
+
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -345,7 +341,6 @@ input {
     flex-direction: row;
   }
   .about__container,
-  .portfolio__content,
   .project__container,
   .contact__container,
   .footer__container {
@@ -426,7 +421,7 @@ input {
     grid-template-columns: repeat(3, 1fr);
   }
   .services__container {
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     display: flex;
   }
@@ -438,6 +433,10 @@ input {
   }
   .services__modal-content {
     width: 450px;
+  }
+  .portfolio__container {
+    overflow-x: hidden;
+    flex-wrap: wrap;
   }
   .portfolio__content {
     align-items: center;
@@ -488,6 +487,10 @@ input {
   }
   .home-img {
     width: 200px;
+  }
+  .portfolio__container {
+    overflow: hidden;
+    flex-wrap: wrap;
   }
   .skills__img {
     padding: 0;
