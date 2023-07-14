@@ -10,11 +10,9 @@ const Skills = () => {
                             <i className="bx bx-code-curly skills__icon"></i>
                             <div>
                                 <h1 className="skills__title">
-                                    Frontend Developer
+                                    Jr Frontend Developer
                                 </h1>
-                                <span className="skills__subtitle">
-                                    WORKING COMPONENT
-                                </span>
+                                
                             </div>
                             {/* <i className="fa-solid fa-caret-down skills__arrow"></i> */}
                         </div>
