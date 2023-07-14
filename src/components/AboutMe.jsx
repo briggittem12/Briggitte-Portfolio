@@ -24,7 +24,7 @@ const AboutMe = () => {
                             <a
                                 href="https://docs.google.com/document/d/1ydAEDDeav4OFnUeYFVby4tFp7nCL9JQPWS1GA48fz34/edit?usp=sharing"
                                 target="_blank"
-                                className="button button--flex"
+                                className="button button--flex button--white"
                             >
                                 View CV!{" "}
                                 <i className="fa-solid fa-down-to-line button__icon"></i>

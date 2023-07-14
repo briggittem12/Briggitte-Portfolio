@@ -1,14 +1,15 @@
 /*--PORTFOLIO--*/
 .portfolio{
   height: auto;
+
 }
 .portfolio__container {
     overflow: hidden;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    padding: 0 2rem;
-    gap: 1rem;
+    padding-top: 2rem;
+    gap: 2rem;
   }
   .portfolio__sub{
     text-align: center;
@@ -16,14 +17,14 @@
   .portfolio__content {
     border: 1px solid transparent;
     width: 365px;
-    height: 450px; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
   .portfolio__img {
-    /* width: 265px;
-    height: 265px;
+    width: 365px;
+    height: 180px;
+    /* height: 265px;
     border-radius: .5rem;
     justify-self: center;
     object-fit: contain; */
@@ -35,6 +36,7 @@
     font-size: 14px;
     text-align: justify;
     margin-bottom: var(--mb-0-75);
+    color: #B7C1D8;
   }
   .portfolio__list {
     display: flex;
@@ -86,9 +88,7 @@
     font-size: 1rem;
   }
   /*--PROJECTS--*/
-  .project {
-    text-align: center;
-  }
+
   .project__bg {
     background-color: var(--container-color);
     width: 100vw;
@@ -97,6 +97,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .project__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
   .project__title {
     font-size: var(--h2-font-size);
