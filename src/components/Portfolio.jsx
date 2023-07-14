@@ -1,6 +1,4 @@
 import React from "react";
-import "swiper/css";
-import "swiper/css/navigation";
 import { SiMui, SiNextdotjs } from "react-icons/si";
 import { portfolio } from "../constants/portfolio";
 
