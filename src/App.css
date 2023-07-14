@@ -10,10 +10,6 @@
     --hue-color: 184; 
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 89%, 46%); 
-    --first-color-second: hsl(var(--hue-color), 90%, 76%);
-    --first-color-alt: hsl(162, 100%, 67%);
-    --first-color-lighter: hsl(150, 66%, 80%);
     --title-color: #fcdd4d;
     --text-color: #89aac3;
     --text-color-light: hsl(0, 2%, 12%);
@@ -112,11 +108,11 @@ input {
 }
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .section__title {
@@ -340,25 +336,14 @@ input {
   .contact__group {
     flex-direction: row;
   }
-  .about__container,
+  /* .about__container,
   .project__container,
   .contact__container,
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    grid-template-columns: repeat(2, 1fr); 
+  }*/
 }
 @media (min-width:768px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  body {
-    margin: 0;
-  }
- /* .section {
-     width: 100vh; 
-    padding: 6rem 0 2rem;
-  }*/
   .section__subtitle {
     margin-bottom: 4rem;
   }
@@ -399,7 +384,7 @@ input {
     gap: 5rem;
   }
   .about__container {
-    column-gap: 5rem;
+    flex-direction: row !important;
   }
   .about__img {
     width: 350px;
@@ -421,9 +406,7 @@ input {
     grid-template-columns: repeat(3, 1fr);
   }
   .services__container {
-    justify-content: center;
     flex-direction: row;
-    display: flex;
   }
   .services__content {
     padding: 3.5rem 3.5rem 1.25rem 1.5rem;

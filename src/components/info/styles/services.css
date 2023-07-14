@@ -1,8 +1,12 @@
 /*--services--*/
+.services{
+  background-color: var(--container-color);
+}  
 .services__container {
-    gap: 1.5rem;
-  
-  }
+      gap: 1.5rem;
+      display: flex;
+      justify-content: center;
+    }
   .services__content {
     position: relative;
     background-color: var(--body-color);
@@ -10,6 +14,7 @@
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
     transition: .3s;
+    width: 350px;
   }
   .services__content:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, .15);

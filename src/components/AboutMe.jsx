@@ -3,15 +3,16 @@ import React from "react";
 const AboutMe = () => {
     return (
         <section className="about section" id="aboutme">
-            <div className="project__bg">
                 <h2 className="section__title">About Me!</h2>
                 <span className="section__subtitle">My Introduction</span>
-                <div className="about__container container grid">
-                    <img
+                <div className="about__container">
+                    <div style={{display: 'flex'}}>
+                        <img
                         className="about__img"
                         src="/img/briggitte.png"
-                        alt=""
+                        alt="briggitte avatar"
                     />
+                    </div>
                     <div className="about__data">
                         <p className="about__description">
                             Web developer with experience in front-end
@@ -31,7 +32,6 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     );
 };

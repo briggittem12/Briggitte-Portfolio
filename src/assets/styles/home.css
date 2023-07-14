@@ -1,9 +1,23 @@
 /*--about me--*/
-
-.about__img {
-    width: 120px;
-    justify-self: center;
-    align-self: center;
+  .about{
+    background-color: var(--container-color);
+    flex-direction: column;
+  }
+  .about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-around;
+  }
+  .about__img {
+      width: 120px;
+    }
+  .about__data{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
   }
   .about__description {
     text-align: center;

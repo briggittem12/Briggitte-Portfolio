@@ -93,7 +93,7 @@
     background-color: var(--container-color);
     width: 100vw;
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.178);
-    padding: 3rem;
+    /* padding: 3rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
