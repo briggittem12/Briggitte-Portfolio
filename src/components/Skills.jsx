@@ -20,15 +20,15 @@ const Skills = () => {
             <div className="skills__container">
                 
                 <div className="skills__content">
-                    <img src="/public/html5.svg" alt="html logo" className="skills__img"/>
-                    <img src="/public/css.svg" alt="css logo" className="skills__img"/>
-                    <img src="/public/js.svg" alt="javascript logo" className="skills__img" />
-                    <img src="/public/reactjs.svg" alt="react logo" className="skills__img" />
-                    <img src="/public/tailwind.svg" alt="tailwind logo" className="skills__img" />
-                    <img src="/public/typescript.svg" alt="typescript logo" className="skills__img" />
-                    <img src="/public/node.svg" alt="node logo" className="skills__img" />
-                    <img src="/public/git.svg" alt="git logo" className="skills__img" />
-                    <img src="/public/github.svg" alt="github logo" className="skills__img" />
+                    <img src="public/img/html5.svg" alt="html logo" className="skills__img"/>
+                    <img src="public/img/css.svg" alt="css logo" className="skills__img"/>
+                    <img src="public/img/js.svg" alt="javascript logo" className="skills__img" />
+                    <img src="public/img/reactjs.svg" alt="react logo" className="skills__img" />
+                    <img src="public/img/tailwind.svg" alt="tailwind logo" className="skills__img" />
+                    <img src="public/img/typescript.svg" alt="typescript logo" className="skills__img" />
+                    <img src="public/img/node.svg" alt="node logo" className="skills__img" />
+                    <img src="public/img/git.svg" alt="git logo" className="skills__img" />
+                    <img src="public/img/github.svg" alt="github logo" className="skills__img" />
                 </div>
             </div>
         </section>
